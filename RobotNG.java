@@ -50,7 +50,7 @@ public class RobotNG extends Robot {
     @Override
     public void avancer() {
         if (turbo) {
-            avancerNbrPas(3);
+            avancerNbrPas(1);
         } else {
             super.avancer();
         }
